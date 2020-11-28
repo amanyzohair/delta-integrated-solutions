@@ -286,6 +286,51 @@ mat-grid-tile {
         margin: 0 !important;
     }
 }
+/* tablet Screen */
+
+@media screen and (max-width: 600px){
+    .left-col {
+        width: 100% !important;
+        padding-top: 20% !important;
+        padding-right: 0 !important;
+        text-align: right;
+    }
+    .right-container{
+        width: 100% !important;
+        padding-left: 0% !important;
+        padding-top: 15% !important;
+    }
+    .hospitals span {
+        padding: 0 !important;
+        font-size: 2.3rem;
+    }  
+    .text {
+        transform: scale(1);
+        font-size: 1.7rem;
+        line-height: 1;
+    }
+    .sports::before {
+        font-size: 1.3rem;
+        transform: scale(0.6) !important;
+    }
+    small {
+        font-size: 1.3rem !important;
+        transform: scale(0.6) !important;
+    }
+    .cons-container {
+        position: absolute;
+        top: 0%;
+        bottom: 30%;
+        right: 0;
+        left: -20%;
+        transform: rotate(-35deg) !important;
+    }
+    .consulting {
+        font-size: 2.3rem;
+        transform: scale(0.6, 1.1) !important;
+    }
+    
+} 
 
 /* Mobile Phone screen */
 
@@ -328,7 +373,7 @@ mat-grid-tile {
     }
     .consulting {
         font-size: 1.25rem;
-        transform: scale(0.6, 1.2) !important;
+        transform: scale(0.6, 1) !important;
     }
     .hospitals {
         text-align: left !important;
@@ -345,36 +390,3 @@ mat-grid-tile {
         padding-top: 5% !important;
     }
 }
-/* tablet Screen */
-
-/* @media screen and (max-width: 600px){
-    
-    .hospitals span {
-        padding-bottom: 0!important;
-        margin-bottom: 0 !important;
-        font-size: 1.9rem;
-    }    
-    .text {
-        transform: scale(1);
-        font-size: 1.6rem;
-        line-height: 1;
-    }
-    .sports::before {
-        font-size: 1.3rem;
-        transform: scale(0.6) !important;
-        top: 0;
-        bottom: 50% !important;
-        right: 0;
-        left: 20% ;
-    }
-    small {
-        font-size: 1.3rem !important;
-        transform: scale(0.6) !important;
-    }
-    .consulting {
-        font-family: Calibri;
-        text-transform: uppercase;
-        font-size: 2.4rem;
-        transform: scale(0.6, 1) !important;
-    }
-} */
